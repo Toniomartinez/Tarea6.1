@@ -2,6 +2,7 @@ window.onload = principal;
 
 function principal()
 {
+    //Esto es un comentario de prueba para probar el commit
     document.getElementById("miBotonSuma").onclick = manejadorClickSuma;
     document.getElementById("miBotonResta").onclick = manejadorClickResta;
     document.getElementById("miBotonMul").onclick = manejadorClickMul;
@@ -18,6 +19,7 @@ function manejadorClickSuma()
 
 function manejadorClickResta()
 {
+    //Esto es un comentario de prueba para probar el commit
     let resta=parseFloat(document.getElementById("entrada").value)-parseFloat(document.getElementById("entrada2").value);
     
     document.getElementById("salida").innerHTML =
